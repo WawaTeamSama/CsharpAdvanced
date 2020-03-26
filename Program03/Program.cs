@@ -24,7 +24,7 @@ namespace Program03
 
         
 
-        public double Price { get; }
+        public double Price { get; }    
         public  void ShowTicket()
         {
             Console.WriteLine(Price);

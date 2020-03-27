@@ -10,9 +10,13 @@ namespace Program05
         public Goods goods { get; }
 
         private string welfare { get; set; }
+        private double sum { get; set; }
+     
         public SaleManage() { }
         public SaleManage(string name,double cost,int quantity,int welfare)
         {
+           
+            sum = cost * quantity;
             goods = new Goods()
             {
                 Name = name,
@@ -21,33 +25,38 @@ namespace Program05
             };
             sale = new Sale()
             {
+                Cost = cost,
                 quantity = quantity,
                 Price = cost * quantity
 
             };
             if (welfare == 1)
             {
-                goods.NCost *= 0.9;
+                cost *= 0.9;
                 this.welfare = "此商品打九折";
+                sum = cost * quantity;
             }
+            
             else if(welfare == 2)
             {
                 this.welfare = "此商品满100减十元";
-                if (sale.Price >= 100)
+                if (sum >= 100)
                 {
-                    sale.Price -= 10;
+                    sum -= 10;
                 }
             }
             else if(welfare == 3)
             {
                 this.welfare = "此商品第二件半价";
-                if (sale.quantity >= 2) 
+                if (quantity >= 2) 
                 {
-                    sale.Price -= sale.Price * 0.5;
+                    sum -= cost * 0.5;
                 }
             }
+            Math.Ceiling(sum);
+        
         }
-        public void Print() => Console.WriteLine($"{goods}{sale}{welfare}");
+        public void Print() => Console.WriteLine($"{goods.Name}  {sale.Cost}  {sale.quantity}  {sum}  {welfare}");
 
 
     }

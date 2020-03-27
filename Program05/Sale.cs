@@ -6,8 +6,8 @@ namespace Program05
 {
     class Sale //销售类
     {
-        private int cost;   //记录单价
-        public int Cost
+        private double  cost;   //记录单价
+        public double  Cost
         {
             get => cost;
             set =>cost = value < 0 ? 0 : value; 

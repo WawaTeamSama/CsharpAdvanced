@@ -14,8 +14,8 @@ namespace Program05
         }
         public int quantity { get; set; } //记录数量
 
-        private int price;//记录总价
-        public int Price
+        private double price;//记录总价
+        public double Price
         {
             get => price;
             set => price = quantity * cost;

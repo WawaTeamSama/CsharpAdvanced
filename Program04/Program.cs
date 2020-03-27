@@ -7,13 +7,26 @@ namespace Program04
         static void Main(string[] args)
         {
             Student st = new Student(name: "张三", sex: false);
+            var stu = new Student(name: "张三", sex: false) { Name = "ssg", Age = 20, Sex = false };
+            Console.WriteLine(stu);
         }
     }
     public class Student
     {
         public string Name { get; set; }
         public bool Sex { get; set; }
-        public int Age { get; set; }
+        public int age 
+        {
+            get;
+            set;
+        }
+        public int Age
+        {
+            get => age;
+            set => age = value > 150 || value < 0 ? 0 : value;
+        }
+        
+
         public double Math { get; set; }
         public double English{ get; set; }
         public double Chinese { get; set; }
@@ -35,5 +48,10 @@ namespace Program04
             this.English = 0;
             this.Chinese = 0;
         }
+        //重写tosring方法
+        public override string ToString() => $"姓名:{Name}性别{Sex}年龄{Age}";
+        
+           
+        
     }
 }

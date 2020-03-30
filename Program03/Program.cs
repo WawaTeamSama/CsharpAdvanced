@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 
 namespace Program03
 {
@@ -6,9 +7,14 @@ namespace Program03
     {
         static void Main(string[] args)
         {
-            Ticket t = new Ticket(distance: 550);
-            t.ShowTicket();
-            Console.ReadKey();
+            int[] num = new int[] { 1, 3, 5 };
+            ArraList arr = new ArraList();
+            for (int i = 0; i < num.Length; i++)
+            {
+                arr.Add(num[i]);
+            }
+            arr.Insert(1, 4);
+            Console.Write(arr[2]);
         }
     }
     public class Ticket

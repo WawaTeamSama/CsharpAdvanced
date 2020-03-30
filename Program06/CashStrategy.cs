@@ -8,7 +8,7 @@ namespace Program06
     {
         private CashSuper cs;
         private double rebate;
-        public CashStrategy(string type,double rebate = 1)
+        public CashStrategy(string type,double rebate = 1,decimal moneyCondition=0M,decimal moneyReturn=0M)
         {
             switch (type)
             {
@@ -17,6 +17,9 @@ namespace Program06
                     break;
                 case "Rebate":
                     this.cs = new CashRebate(rebate);
+                    break;
+                case "Ruduce":
+                    this.cs = new CashReduce(moneyCondition,moneyReturn);
                     break;
             }
         }

@@ -26,8 +26,8 @@ namespace Program06
                     totalPrice += cs.GetTotal(100);
                     break;
                 case "4":
-                    cs = new CashStrategy("Rebate", 0.8);
-                    totalPrice += cs.GetTotal(100);
+                    cs = new CashStrategy("Reduce",1,200,20);
+                    totalPrice += cs.GetTotal(200);
                     break;
                 default:break;
 

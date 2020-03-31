@@ -10,3 +10,4 @@ D:\CsharpAdvanced\Program06\obj\Debug\netcoreapp3.1\Program06.AssemblyInfo.cs
 D:\CsharpAdvanced\Program06\obj\Debug\netcoreapp3.1\Program06.dll
 D:\CsharpAdvanced\Program06\obj\Debug\netcoreapp3.1\Program06.pdb
 D:\CsharpAdvanced\Program06\obj\Debug\netcoreapp3.1\Program06.genruntimeconfig.cache
+D:\CsharpAdvanced\Program06\obj\Debug\netcoreapp3.1\Program06.csprojAssemblyReference.cache

@@ -80,9 +80,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CashAcceptType\CashAcceptType.csproj">
+    <ProjectReference Include="..\CashAcceptType\CashAcceptTypeName.csproj">
       <Project>{5da1ccc5-dd14-49ba-9cb6-1e271ac77aa2}</Project>
-      <Name>CashAcceptType</Name>
+      <Name>CashAcceptTypeName</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

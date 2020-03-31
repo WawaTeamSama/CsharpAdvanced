@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5DA1CCC5-DD14-49BA-9CB6-1E271AC77AA2}</ProjectGuid>
+    <ProjectGuid>{38E8622F-B809-4F44-82AB-D83879C0BDB2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CashAcceptType</RootNamespace>
-    <AssemblyName>CashAcceptType</AssemblyName>
+    <RootNamespace>CashShop.Bussiness</RootNamespace>
+    <AssemblyName>CashShop.Bussiness</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,8 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CashAcceptType.cs" />
+    <Compile Include="CashAcceptTypeName.cs" />
+    <Compile Include="CashFacade.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CashAcceptType\CashAcceptTypeName.csproj">
+      <Project>{5da1ccc5-dd14-49ba-9cb6-1e271ac77aa2}</Project>
+      <Name>CashAcceptTypeName</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

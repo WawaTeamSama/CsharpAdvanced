@@ -1,0 +1,5 @@
+D:\CsharpAdvanced\CashAcceptType\obj\Debug\CashAcceptTypeName.csproj.CoreCompileInputs.cache
+D:\CsharpAdvanced\CashAcceptType\bin\Debug\CashAcceptTypeName.dll
+D:\CsharpAdvanced\CashAcceptType\bin\Debug\CashAcceptTypeName.pdb
+D:\CsharpAdvanced\CashAcceptType\obj\Debug\CashAcceptTypeName.dll
+D:\CsharpAdvanced\CashAcceptType\obj\Debug\CashAcceptTypeName.pdb

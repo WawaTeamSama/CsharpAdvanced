@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CashAcceptType>
+	<type>
+		<name>正常收费</name>
+		<class>CashNormal</class>
+		<para></para>
+	</type>
+	<type>
+		<name>满300返50</name>
+		<class>CashReturn</class>
+		<para>300,50</para>
+	</type>
+	<type>
+		<name>满200返10</name>
+		<class>CashReturn</class>
+		<para>200,10</para>
+	</type>
+<type>
+		<name>打8.8折</name>
+		<class>CashRebate</class>
+		<para>0.88</para>
+	</type>
+</CashAcceptType>

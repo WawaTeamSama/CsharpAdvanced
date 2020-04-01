@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CashShop", "CashShop", "{ECB7D98A-7505-4462-95D7-B0DA411AFE13}"
+	ProjectSection(SolutionItems) = preProject
+		..\software2018-3-CsharpAdvanced-master\CsharpAdvanced\CashShop\App.config = ..\software2018-3-CsharpAdvanced-master\CsharpAdvanced\CashShop\App.config
+		..\software2018-3-CsharpAdvanced-master\CsharpAdvanced\CashShop\CashShop.csproj = ..\software2018-3-CsharpAdvanced-master\CsharpAdvanced\CashShop\CashShop.csproj
+		..\software2018-3-CsharpAdvanced-master\CsharpAdvanced\CashShop\Form1.cs = ..\software2018-3-CsharpAdvanced-master\CsharpAdvanced\CashShop\Form1.cs
+		..\software2018-3-CsharpAdvanced-master\CsharpAdvanced\CashShop\Form1.Designer.cs = ..\software2018-3-CsharpAdvanced-master\CsharpAdvanced\CashShop\Form1.Designer.cs
+		..\software2018-3-CsharpAdvanced-master\CsharpAdvanced\CashShop\Form1.resx = ..\software2018-3-CsharpAdvanced-master\CsharpAdvanced\CashShop\Form1.resx
+		..\software2018-3-CsharpAdvanced-master\CsharpAdvanced\CashShop\Program.cs = ..\software2018-3-CsharpAdvanced-master\CsharpAdvanced\CashShop\Program.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CashShop.AccessDataLib", "CashShop.AccessDataLib", "{E9C95BAC-0F31-448B-8180-F46AC0A19EA3}"
+	ProjectSection(SolutionItems) = preProject
+		..\software2018-3-CsharpAdvanced-master\CsharpAdvanced\CashShop.AccessDataLib\CashAcceptType.cs = ..\software2018-3-CsharpAdvanced-master\CsharpAdvanced\CashShop.AccessDataLib\CashAcceptType.cs
+		..\software2018-3-CsharpAdvanced-master\CsharpAdvanced\CashShop.AccessDataLib\CashShop.AccessDataLib.csproj = ..\software2018-3-CsharpAdvanced-master\CsharpAdvanced\CashShop.AccessDataLib\CashShop.AccessDataLib.csproj
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CashShop.Bussiness", "CashShop.Bussiness", "{EE2AC39D-3728-45F8-AA67-BDBB9484577E}"
+	ProjectSection(SolutionItems) = preProject
+		..\software2018-3-CsharpAdvanced-master\CsharpAdvanced\CashShop.Bussiness\CashFacade.cs = ..\software2018-3-CsharpAdvanced-master\CsharpAdvanced\CashShop.Bussiness\CashFacade.cs
+		..\software2018-3-CsharpAdvanced-master\CsharpAdvanced\CashShop.Bussiness\CashNormal.cs = ..\software2018-3-CsharpAdvanced-master\CsharpAdvanced\CashShop.Bussiness\CashNormal.cs
+		..\software2018-3-CsharpAdvanced-master\CsharpAdvanced\CashShop.Bussiness\CashRebate.cs = ..\software2018-3-CsharpAdvanced-master\CsharpAdvanced\CashShop.Bussiness\CashRebate.cs
+		..\software2018-3-CsharpAdvanced-master\CsharpAdvanced\CashShop.Bussiness\CashReturn.cs = ..\software2018-3-CsharpAdvanced-master\CsharpAdvanced\CashShop.Bussiness\CashReturn.cs
+		..\software2018-3-CsharpAdvanced-master\CsharpAdvanced\CashShop.Bussiness\CashShop.Bussiness.csproj = ..\software2018-3-CsharpAdvanced-master\CsharpAdvanced\CashShop.Bussiness\CashShop.Bussiness.csproj
+		..\software2018-3-CsharpAdvanced-master\CsharpAdvanced\CashShop.Bussiness\CashStrategy.cs = ..\software2018-3-CsharpAdvanced-master\CsharpAdvanced\CashShop.Bussiness\CashStrategy.cs
+		..\software2018-3-CsharpAdvanced-master\CsharpAdvanced\CashShop.Bussiness\CashSuper.cs = ..\software2018-3-CsharpAdvanced-master\CsharpAdvanced\CashShop.Bussiness\CashSuper.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A1F93FB-19F8-4CAB-AD5A-6FF245C8524C}
+	EndGlobalSection
+EndGlobal

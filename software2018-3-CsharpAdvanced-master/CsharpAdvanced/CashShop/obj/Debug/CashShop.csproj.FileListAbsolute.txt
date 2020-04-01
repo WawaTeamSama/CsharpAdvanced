@@ -1,0 +1,14 @@
+D:\CsharpAdvanced\CashShop\bin\Debug\CashShop.exe.config
+D:\CsharpAdvanced\CashShop\bin\Debug\CashShop.exe
+D:\CsharpAdvanced\CashShop\bin\Debug\CashShop.pdb
+D:\CsharpAdvanced\CashShop\bin\Debug\CashShop.AccessDataLib.dll
+D:\CsharpAdvanced\CashShop\bin\Debug\CashShop.Bussiness.dll
+D:\CsharpAdvanced\CashShop\bin\Debug\CashShop.AccessDataLib.pdb
+D:\CsharpAdvanced\CashShop\bin\Debug\CashShop.Bussiness.pdb
+D:\CsharpAdvanced\CashShop\obj\Debug\CashShop.csprojAssemblyReference.cache
+D:\CsharpAdvanced\CashShop\obj\Debug\CashShop.Form1.resources
+D:\CsharpAdvanced\CashShop\obj\Debug\CashShop.Properties.Resources.resources
+D:\CsharpAdvanced\CashShop\obj\Debug\CashShop.csproj.GenerateResource.cache
+D:\CsharpAdvanced\CashShop\obj\Debug\CashShop.csproj.CopyComplete
+D:\CsharpAdvanced\CashShop\obj\Debug\CashShop.exe
+D:\CsharpAdvanced\CashShop\obj\Debug\CashShop.pdb

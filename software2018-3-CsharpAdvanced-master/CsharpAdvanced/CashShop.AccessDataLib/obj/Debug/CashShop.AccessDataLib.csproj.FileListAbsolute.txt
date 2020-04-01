@@ -1,0 +1,4 @@
+D:\CsharpAdvanced\CashShop.AccessDataLib\bin\Debug\CashShop.AccessDataLib.dll
+D:\CsharpAdvanced\CashShop.AccessDataLib\bin\Debug\CashShop.AccessDataLib.pdb
+D:\CsharpAdvanced\CashShop.AccessDataLib\obj\Debug\CashShop.AccessDataLib.dll
+D:\CsharpAdvanced\CashShop.AccessDataLib\obj\Debug\CashShop.AccessDataLib.pdb

@@ -1,0 +1,8 @@
+D:\CsharpAdvanced\CashShop.Bussiness\bin\Debug\CashShop.Bussiness.dll
+D:\CsharpAdvanced\CashShop.Bussiness\bin\Debug\CashShop.Bussiness.pdb
+D:\CsharpAdvanced\CashShop.Bussiness\bin\Debug\CashShop.AccessDataLib.dll
+D:\CsharpAdvanced\CashShop.Bussiness\bin\Debug\CashShop.AccessDataLib.pdb
+D:\CsharpAdvanced\CashShop.Bussiness\obj\Debug\CashShop.Bussiness.csprojAssemblyReference.cache
+D:\CsharpAdvanced\CashShop.Bussiness\obj\Debug\CashShop.Bussiness.csproj.CopyComplete
+D:\CsharpAdvanced\CashShop.Bussiness\obj\Debug\CashShop.Bussiness.dll
+D:\CsharpAdvanced\CashShop.Bussiness\obj\Debug\CashShop.Bussiness.pdb

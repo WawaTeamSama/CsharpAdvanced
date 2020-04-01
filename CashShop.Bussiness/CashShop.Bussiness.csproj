@@ -43,6 +43,9 @@
   <ItemGroup>
     <Compile Include="CashAcceptTypeName.cs" />
     <Compile Include="CashFacade.cs" />
+    <Compile Include="CashNormal.cs" />
+    <Compile Include="CashStrategy.cs" />
+    <Compile Include="CashSuper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

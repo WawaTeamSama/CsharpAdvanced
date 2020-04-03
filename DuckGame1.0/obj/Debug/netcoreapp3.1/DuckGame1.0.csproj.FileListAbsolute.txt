@@ -1,0 +1,13 @@
+D:\CsharpAdvanced\DuckGame1.0\bin\Debug\netcoreapp3.1\DuckGame1.0.exe
+D:\CsharpAdvanced\DuckGame1.0\bin\Debug\netcoreapp3.1\DuckGame1.0.deps.json
+D:\CsharpAdvanced\DuckGame1.0\bin\Debug\netcoreapp3.1\DuckGame1.0.runtimeconfig.json
+D:\CsharpAdvanced\DuckGame1.0\bin\Debug\netcoreapp3.1\DuckGame1.0.runtimeconfig.dev.json
+D:\CsharpAdvanced\DuckGame1.0\bin\Debug\netcoreapp3.1\DuckGame1.0.dll
+D:\CsharpAdvanced\DuckGame1.0\bin\Debug\netcoreapp3.1\DuckGame1.0.pdb
+D:\CsharpAdvanced\DuckGame1.0\obj\Debug\netcoreapp3.1\DuckGame1.0.csprojAssemblyReference.cache
+D:\CsharpAdvanced\DuckGame1.0\obj\Debug\netcoreapp3.1\DuckGame1.0.csproj.CoreCompileInputs.cache
+D:\CsharpAdvanced\DuckGame1.0\obj\Debug\netcoreapp3.1\DuckGame1.0.AssemblyInfoInputs.cache
+D:\CsharpAdvanced\DuckGame1.0\obj\Debug\netcoreapp3.1\DuckGame1.0.AssemblyInfo.cs
+D:\CsharpAdvanced\DuckGame1.0\obj\Debug\netcoreapp3.1\DuckGame1.0.dll
+D:\CsharpAdvanced\DuckGame1.0\obj\Debug\netcoreapp3.1\DuckGame1.0.pdb
+D:\CsharpAdvanced\DuckGame1.0\obj\Debug\netcoreapp3.1\DuckGame1.0.genruntimeconfig.cache

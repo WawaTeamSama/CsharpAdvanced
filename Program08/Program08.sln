@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Program08", "Program08.csproj", "{26358C45-C779-43C4-86CE-D41DF070E616}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DuckGame", "DuckGame", "{A7C88B67-9955-4233-BE71-00FA9DF56587}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuckGame1.0", "..\DuckGame1.0\DuckGame1.0.csproj", "{4254B5EF-30F8-4C26-AD77-42873FEE9327}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26358C45-C779-43C4-86CE-D41DF070E616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26358C45-C779-43C4-86CE-D41DF070E616}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26358C45-C779-43C4-86CE-D41DF070E616}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26358C45-C779-43C4-86CE-D41DF070E616}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4254B5EF-30F8-4C26-AD77-42873FEE9327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4254B5EF-30F8-4C26-AD77-42873FEE9327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4254B5EF-30F8-4C26-AD77-42873FEE9327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4254B5EF-30F8-4C26-AD77-42873FEE9327}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4254B5EF-30F8-4C26-AD77-42873FEE9327} = {A7C88B67-9955-4233-BE71-00FA9DF56587}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C998AA68-679D-44B8-B20B-2A0551592EDE}
+	EndGlobalSection
+EndGlobal

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DuckGame1._0
 {
-    interface IflyBehavior
+   public interface IflyBehavior
     {
         string Fly();
     }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DuckGame1._0.Quack
 {
-    interface IQuackBehavior
+   public interface IQuackBehavior
     {
         string Quack();
     }

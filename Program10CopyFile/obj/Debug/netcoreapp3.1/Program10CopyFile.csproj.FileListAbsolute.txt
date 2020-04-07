@@ -1,0 +1,12 @@
+D:\CsharpAdvanced\Program10CopyFile\bin\Debug\netcoreapp3.1\Program10CopyFile.exe
+D:\CsharpAdvanced\Program10CopyFile\bin\Debug\netcoreapp3.1\Program10CopyFile.deps.json
+D:\CsharpAdvanced\Program10CopyFile\bin\Debug\netcoreapp3.1\Program10CopyFile.runtimeconfig.json
+D:\CsharpAdvanced\Program10CopyFile\bin\Debug\netcoreapp3.1\Program10CopyFile.runtimeconfig.dev.json
+D:\CsharpAdvanced\Program10CopyFile\bin\Debug\netcoreapp3.1\Program10CopyFile.dll
+D:\CsharpAdvanced\Program10CopyFile\bin\Debug\netcoreapp3.1\Program10CopyFile.pdb
+D:\CsharpAdvanced\Program10CopyFile\obj\Debug\netcoreapp3.1\Program10CopyFile.csproj.CoreCompileInputs.cache
+D:\CsharpAdvanced\Program10CopyFile\obj\Debug\netcoreapp3.1\Program10CopyFile.AssemblyInfoInputs.cache
+D:\CsharpAdvanced\Program10CopyFile\obj\Debug\netcoreapp3.1\Program10CopyFile.AssemblyInfo.cs
+D:\CsharpAdvanced\Program10CopyFile\obj\Debug\netcoreapp3.1\Program10CopyFile.dll
+D:\CsharpAdvanced\Program10CopyFile\obj\Debug\netcoreapp3.1\Program10CopyFile.pdb
+D:\CsharpAdvanced\Program10CopyFile\obj\Debug\netcoreapp3.1\Program10CopyFile.genruntimeconfig.cache

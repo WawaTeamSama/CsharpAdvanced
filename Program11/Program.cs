@@ -38,19 +38,43 @@ namespace Program11
                 ,"元","袁","岳","云","曾","詹","张","章","赵","郑" ,"钟","周","邹","朱","褚","庄","卓"
             };
             string iNames = "喜欢捉弄却总是掉入自己的陷阱今天就忘了那些欲擒故纵的把戏我要去敲你的窗";
-
+            var rnd = new Random(DateTime.Now.Second);
+            fName = fNames[rnd.Next(fNames.Length - 1)];
+            iName = iNames.Substring(rnd.Next(0, iNames.Length - 1), 1) +
+                iNames.Substring(rnd.Next(0, iNames.Length - 1), 1);
         }
 
 
         //随机初始化100个员工
         public static List<Person> GetPersons()
         {
-
+            List<Person> lp = new List<Person> { };
+            
+            for(int i = 0; i < 100; i++)
+            {
+                Person p = new Person();
+                var firstname = "";
+                var lastname = "";
+                GetRandomChineseName(ref firstname, ref lastname);
+                p.FirstName=firstname;
+                p.LastName = lastname;
+                lp.Add(p);
+            }
+            return lp;
         }
-        
+
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var firstname = "";
+            var lastname = "";
+            GetRandomChineseName(ref firstname, ref lastname);
+            Console.WriteLine(firstname + lastname);
+            List<Person> p = GetPersons();
+            foreach(Person i in p)
+            {
+                Console.WriteLine(i.FirstName+i.LastName);
+            }
+
         }
        
     }

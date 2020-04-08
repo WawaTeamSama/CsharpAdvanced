@@ -2,3 +2,12 @@ D:\CsharpAdvanced\Program11\obj\Debug\netcoreapp3.1\Program11.csprojAssemblyRefe
 D:\CsharpAdvanced\Program11\obj\Debug\netcoreapp3.1\Program11.csproj.CoreCompileInputs.cache
 D:\CsharpAdvanced\Program11\obj\Debug\netcoreapp3.1\Program11.AssemblyInfoInputs.cache
 D:\CsharpAdvanced\Program11\obj\Debug\netcoreapp3.1\Program11.AssemblyInfo.cs
+D:\CsharpAdvanced\Program11\bin\Debug\netcoreapp3.1\Program11.exe
+D:\CsharpAdvanced\Program11\bin\Debug\netcoreapp3.1\Program11.deps.json
+D:\CsharpAdvanced\Program11\bin\Debug\netcoreapp3.1\Program11.runtimeconfig.json
+D:\CsharpAdvanced\Program11\bin\Debug\netcoreapp3.1\Program11.runtimeconfig.dev.json
+D:\CsharpAdvanced\Program11\bin\Debug\netcoreapp3.1\Program11.dll
+D:\CsharpAdvanced\Program11\bin\Debug\netcoreapp3.1\Program11.pdb
+D:\CsharpAdvanced\Program11\obj\Debug\netcoreapp3.1\Program11.dll
+D:\CsharpAdvanced\Program11\obj\Debug\netcoreapp3.1\Program11.pdb
+D:\CsharpAdvanced\Program11\obj\Debug\netcoreapp3.1\Program11.genruntimeconfig.cache

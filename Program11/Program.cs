@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading;
 
 namespace Program11
 
@@ -38,7 +39,8 @@ namespace Program11
                 ,"元","袁","岳","云","曾","詹","张","章","赵","郑" ,"钟","周","邹","朱","褚","庄","卓"
             };
             string iNames = "喜欢捉弄却总是掉入自己的陷阱今天就忘了那些欲擒故纵的把戏我要去敲你的窗";
-            var rnd = new Random(DateTime.Now.Second);
+            var rnd = new Random(DateTime.Now.Millisecond);
+            Thread.Sleep(100);
             fName = fNames[rnd.Next(fNames.Length - 1)];
             iName = iNames.Substring(rnd.Next(0, iNames.Length - 1), 1) +
                 iNames.Substring(rnd.Next(0, iNames.Length - 1), 1);
@@ -52,7 +54,28 @@ namespace Program11
             
             for(int i = 0; i < 100; i++)
             {
-                Person p = new Person();
+                Person p = new Person() ;
+                p.ID = Guid.NewGuid();
+                p.EmployeeNo =Convert.ToString(i + 1);
+                Random rd = new Random();
+                int sex = rd.Next(0, 2);
+                if (sex == 1)
+                {
+                    p.Sex = true;
+                }
+                else if (sex == 0)
+                {
+                    p.Sex = false;
+                }
+                int phonenumber = 0;
+                for (int k = 0; k < 11; k++) 
+                {
+                    Random rnd = new Random();
+                    int n = rnd.Next(1, 10);
+                    phonenumber += n;
+                    
+                }
+                p.PhoneNumber =Convert.ToString ( phonenumber);
                 var firstname = "";
                 var lastname = "";
                 GetRandomChineseName(ref firstname, ref lastname);
@@ -72,6 +95,7 @@ namespace Program11
             List<Person> p = GetPersons();
             foreach(Person i in p)
             {
+                Console.WriteLine(i.ID + "" + i.Sex + "" + i.PhoneNumber + "" + i.EmployeeNo);
                 Console.WriteLine(i.FirstName+i.LastName);
             }
 

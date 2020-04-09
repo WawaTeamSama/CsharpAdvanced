@@ -12,6 +12,9 @@ namespace Program12Encyption
             Console.WriteLine("MD5密文:" + md5Pwd);
             string SHAPwd = Encpytion.GetSHA(pwd);
             Console.WriteLine("SHA密文" + SHAPwd);
+
+            //加盐
+            string pwd2 = "123456" + "#j825k.@ogs";
         }
     }
 }

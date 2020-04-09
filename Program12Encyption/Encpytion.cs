@@ -11,8 +11,9 @@ namespace Program12Encyption
         public static string GetMd5(string str)
         {
             var md5 = MD5.Create();
+            //将字符转换成二进制数组
             var bitArray = Encoding.GetEncoding("UTF-8").GetBytes(str);
-
+            //进行加密
             var md5BitArray = md5.ComputeHash(bitArray);
             var encrypStr = "";
             for(var i = 0; i < md5BitArray.Length; i++)

@@ -1,0 +1,13 @@
+D:\CsharpAdvanced\Program12Encyption\bin\Debug\netcoreapp3.1\Program12Encyption.exe
+D:\CsharpAdvanced\Program12Encyption\bin\Debug\netcoreapp3.1\Program12Encyption.deps.json
+D:\CsharpAdvanced\Program12Encyption\bin\Debug\netcoreapp3.1\Program12Encyption.runtimeconfig.json
+D:\CsharpAdvanced\Program12Encyption\bin\Debug\netcoreapp3.1\Program12Encyption.runtimeconfig.dev.json
+D:\CsharpAdvanced\Program12Encyption\bin\Debug\netcoreapp3.1\Program12Encyption.dll
+D:\CsharpAdvanced\Program12Encyption\bin\Debug\netcoreapp3.1\Program12Encyption.pdb
+D:\CsharpAdvanced\Program12Encyption\obj\Debug\netcoreapp3.1\Program12Encyption.csprojAssemblyReference.cache
+D:\CsharpAdvanced\Program12Encyption\obj\Debug\netcoreapp3.1\Program12Encyption.csproj.CoreCompileInputs.cache
+D:\CsharpAdvanced\Program12Encyption\obj\Debug\netcoreapp3.1\Program12Encyption.AssemblyInfoInputs.cache
+D:\CsharpAdvanced\Program12Encyption\obj\Debug\netcoreapp3.1\Program12Encyption.AssemblyInfo.cs
+D:\CsharpAdvanced\Program12Encyption\obj\Debug\netcoreapp3.1\Program12Encyption.dll
+D:\CsharpAdvanced\Program12Encyption\obj\Debug\netcoreapp3.1\Program12Encyption.pdb
+D:\CsharpAdvanced\Program12Encyption\obj\Debug\netcoreapp3.1\Program12Encyption.genruntimeconfig.cache

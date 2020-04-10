@@ -1,0 +1,10 @@
+D:\CsharpAdvanced\Program14\bin\Debug\Program14.exe.config
+D:\CsharpAdvanced\Program14\bin\Debug\Program14.exe
+D:\CsharpAdvanced\Program14\bin\Debug\Program14.pdb
+D:\CsharpAdvanced\Program14\obj\Debug\Program14.csprojAssemblyReference.cache
+D:\CsharpAdvanced\Program14\obj\Debug\Program14.Form1.resources
+D:\CsharpAdvanced\Program14\obj\Debug\Program14.Properties.Resources.resources
+D:\CsharpAdvanced\Program14\obj\Debug\Program14.csproj.GenerateResource.cache
+D:\CsharpAdvanced\Program14\obj\Debug\Program14.csproj.CoreCompileInputs.cache
+D:\CsharpAdvanced\Program14\obj\Debug\Program14.exe
+D:\CsharpAdvanced\Program14\obj\Debug\Program14.pdb

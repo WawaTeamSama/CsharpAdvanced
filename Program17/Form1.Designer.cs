@@ -105,7 +105,7 @@
             this.btnRock.TabIndex = 6;
             this.btnRock.Text = "石头";
             this.btnRock.UseVisualStyleBackColor = true;
-           
+            this.btnRock.Click += new System.EventHandler(this.btnRock_Click);
             // 
             // btn
             // 

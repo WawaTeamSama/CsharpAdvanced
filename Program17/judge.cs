@@ -19,7 +19,7 @@ namespace Program17
         布
     }
 
-    class judge
+   public class judge
     {
         public static EnumResult GetResult(int player,int computer)
         {

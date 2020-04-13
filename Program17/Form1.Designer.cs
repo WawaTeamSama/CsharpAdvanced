@@ -94,9 +94,8 @@
             this.lblresult.AutoSize = true;
             this.lblresult.Location = new System.Drawing.Point(340, 134);
             this.lblresult.Name = "lblresult";
-            this.lblresult.Size = new System.Drawing.Size(11, 12);
+            this.lblresult.Size = new System.Drawing.Size(0, 12);
             this.lblresult.TabIndex = 5;
-            this.lblresult.Text = "\\";
             // 
             // btnRock
             // 
@@ -106,6 +105,7 @@
             this.btnRock.TabIndex = 6;
             this.btnRock.Text = "石头";
             this.btnRock.UseVisualStyleBackColor = true;
+           
             // 
             // btn
             // 

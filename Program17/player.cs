@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Program17
 {
-    class player
+    class player:Form1
     {
+       
     }
 }

@@ -18,16 +18,17 @@ namespace Program17
             {
                 case 1:
                     this.fist=EnumFist.石头;
-                    break;
+                    return EnumFist.石头;
                 case 2:
                     this.fist=EnumFist.剪刀;
-                    break;
+                    return EnumFist.剪刀;
                 case 3:
                     this.fist=EnumFist.布;
-                    break;
-               
+                    return EnumFist.布;
+                default:
+                    return EnumFist.石头;
             }
-            return EnumFist.布;
+            
         }
     }
 }

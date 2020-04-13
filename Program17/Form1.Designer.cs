@@ -115,6 +115,7 @@
             this.btn.TabIndex = 7;
             this.btn.Text = "剪刀";
             this.btn.UseVisualStyleBackColor = true;
+            this.btn.Click += new System.EventHandler(this.btn_Click);
             // 
             // brnPeper
             // 
@@ -124,6 +125,7 @@
             this.brnPeper.TabIndex = 8;
             this.brnPeper.Text = "布";
             this.brnPeper.UseVisualStyleBackColor = true;
+            this.brnPeper.Click += new System.EventHandler(this.brnPeper_Click);
             // 
             // Form1
             // 

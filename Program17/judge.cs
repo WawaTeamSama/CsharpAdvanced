@@ -15,8 +15,8 @@ namespace Program17
     public  enum EnumFist 
     {
         石头=1,
-        剪刀,
-        布
+        剪刀=2,
+        布=3
     }
 
    public class judge
@@ -27,7 +27,7 @@ namespace Program17
             {
                 return EnumResult.平局;
             }
-            else if (player - computer == -1||player-computer==2)
+            else if ((player - computer) == -1||(player-computer)==2)
             {
                 return EnumResult.玩家胜利;
             }

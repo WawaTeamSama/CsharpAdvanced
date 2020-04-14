@@ -1,0 +1,10 @@
+D:\CsharpAdvanced\Program18Dialog\bin\Debug\Program18Dialog.exe.config
+D:\CsharpAdvanced\Program18Dialog\bin\Debug\Program18Dialog.exe
+D:\CsharpAdvanced\Program18Dialog\bin\Debug\Program18Dialog.pdb
+D:\CsharpAdvanced\Program18Dialog\obj\Debug\Program18Dialog.csprojAssemblyReference.cache
+D:\CsharpAdvanced\Program18Dialog\obj\Debug\Program18Dialog.Form1.resources
+D:\CsharpAdvanced\Program18Dialog\obj\Debug\Program18Dialog.Properties.Resources.resources
+D:\CsharpAdvanced\Program18Dialog\obj\Debug\Program18Dialog.csproj.GenerateResource.cache
+D:\CsharpAdvanced\Program18Dialog\obj\Debug\Program18Dialog.csproj.CoreCompileInputs.cache
+D:\CsharpAdvanced\Program18Dialog\obj\Debug\Program18Dialog.exe
+D:\CsharpAdvanced\Program18Dialog\obj\Debug\Program18Dialog.pdb

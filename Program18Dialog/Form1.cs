@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
+using System.Text;
 
 namespace Program18Dialog
 {
@@ -31,6 +33,25 @@ namespace Program18Dialog
             //展开对话框
             dialogopen.ShowDialog();//展开对话框
 
+            //获得选中文件的路径
+            var paths = dialogopen.FileNames;
+            if (paths.Length == 0)
+            {
+                MessageBox.Show("请选择一个文件！");
+                return;
+            }
+            //读取二进制文件 并显示在文本框
+            textBox1.Text = string.Empty;
+            foreach(var path in paths)
+            {
+                using (FileStream fsRead = new FileStream(path, FileMode.OpenOrCreate, FileAccess.Read))
+                {
+                    byte[] buffer = new byte[1024 * 1024 * 10];
+                    int r = fsRead.Read(buffer, 0, buffer.Length);
+                    textBox1.Text += Encoding.UTF8.GetString(buffer, 0, r) + "\r\n\r\n";
+                }
+            }
+           
         }
     }
 }

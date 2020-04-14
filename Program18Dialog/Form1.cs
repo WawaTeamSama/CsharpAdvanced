@@ -53,5 +53,28 @@ namespace Program18Dialog
             }
            
         }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            //设置对话框选择保存的路径
+            var dialogopen = new SaveFileDialog();
+
+            //设置对话框属性
+            dialogopen.Title = "请选择要保存的路径"; //标题
+           
+            dialogopen.InitialDirectory = @"c:\test";//默认目录
+            dialogopen.Filter = "文件文件|*.txt";//默认文件
+            dialogopen.ShowDialog();
+
+            //二进制文件的写入
+            var path = dialogopen.FileName;
+            using (FileStream fsWrite = new FileStream(dialogopen.FileName, FileMode.OpenOrCreate, FileAccess.Write))
+            {
+                var str1 = textBox1.Text;
+                byte[] buffer1 = Encoding.UTF8.GetBytes(str1);
+                fsWrite.Write(buffer1, 0, buffer1.Length);
+            }
+
+        }
     }
 }

@@ -1,0 +1,10 @@
+D:\CsharpAdvanced\Program21\bin\Debug\Program21.exe.config
+D:\CsharpAdvanced\Program21\bin\Debug\Program21.exe
+D:\CsharpAdvanced\Program21\bin\Debug\Program21.pdb
+D:\CsharpAdvanced\Program21\obj\Debug\Program21.csprojAssemblyReference.cache
+D:\CsharpAdvanced\Program21\obj\Debug\Program21.Form1.resources
+D:\CsharpAdvanced\Program21\obj\Debug\Program21.Properties.Resources.resources
+D:\CsharpAdvanced\Program21\obj\Debug\Program21.csproj.GenerateResource.cache
+D:\CsharpAdvanced\Program21\obj\Debug\Program21.csproj.CoreCompileInputs.cache
+D:\CsharpAdvanced\Program21\obj\Debug\Program21.exe
+D:\CsharpAdvanced\Program21\obj\Debug\Program21.pdb

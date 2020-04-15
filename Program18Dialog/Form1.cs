@@ -76,5 +76,23 @@ namespace Program18Dialog
             }
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+            //选择字体
+            var rd = new FontDialog();
+            rd.ShowDialog();
+
+            textBox1.Font = rd.Font;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            //选择颜色
+            var cd = new ColorDialog();
+            cd.ShowDialog();
+            textBox1.ForeColor = cd.Color;
+        }
     }
 }

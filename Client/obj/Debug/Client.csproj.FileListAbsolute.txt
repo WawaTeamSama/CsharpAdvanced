@@ -1,0 +1,9 @@
+D:\CsharpAdvanced\Client\bin\Debug\Client.exe.config
+D:\CsharpAdvanced\Client\bin\Debug\Client.exe
+D:\CsharpAdvanced\Client\bin\Debug\Client.pdb
+D:\CsharpAdvanced\Client\obj\Debug\Client.csprojAssemblyReference.cache
+D:\CsharpAdvanced\Client\obj\Debug\Client.Properties.Resources.resources
+D:\CsharpAdvanced\Client\obj\Debug\Client.csproj.GenerateResource.cache
+D:\CsharpAdvanced\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+D:\CsharpAdvanced\Client\obj\Debug\Client.exe
+D:\CsharpAdvanced\Client\obj\Debug\Client.pdb

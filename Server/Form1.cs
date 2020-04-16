@@ -49,7 +49,7 @@ namespace Server
                     //将远程连接客户端的IP加入下拉框
                     cbUser.Items.Add(socketSend.RemoteEndPoint .ToString());
 
-                    ShowMessage(socketSend.RemoteEndPoint.ToString()+":连接成功！"):
+                    ShowMessage(socketSend.RemoteEndPoint.ToString() + ":连接成功！");
                     //开新的线程 不停地接收客户端发送的请求
                     Thread th = new Thread(Receive);
                     th.IsBackground = true;
@@ -75,5 +75,30 @@ namespace Server
             txtLog.AppendText(msgStr + "\r\n");
         }
         #endregion
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                //当用户点击开始监听时 在服务器端创建一个负责监听的IP地址和端口号
+                Socket socketWatch = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+                IPAddress ip = IPAddress.Parse(txtServer.Text);
+                //创建端口号对象
+                IPEndPoint point = new IPEndPoint(ip, Convert.ToInt32(txtPort.Text));
+
+                //开始监听
+                socketWatch.Bind(point);
+                ShowMessage("监听成功！");
+                socketWatch.Listen(10);
+
+                Thread th = new Thread(Listen);
+                th.IsBackground = true;
+                th.Start(socketWatch);
+                    }
+            catch
+            {
+                MessageBox.Show("网络连接错误，请重新连接");
+            }
+        }
     }
 }

@@ -1,0 +1,9 @@
+D:\CsharpAdvanced\Program22\bin\Debug\Program22.exe.config
+D:\CsharpAdvanced\Program22\bin\Debug\Program22.exe
+D:\CsharpAdvanced\Program22\bin\Debug\Program22.pdb
+D:\CsharpAdvanced\Program22\obj\Debug\Program22.csprojAssemblyReference.cache
+D:\CsharpAdvanced\Program22\obj\Debug\Program22.Properties.Resources.resources
+D:\CsharpAdvanced\Program22\obj\Debug\Program22.csproj.GenerateResource.cache
+D:\CsharpAdvanced\Program22\obj\Debug\Program22.csproj.CoreCompileInputs.cache
+D:\CsharpAdvanced\Program22\obj\Debug\Program22.exe
+D:\CsharpAdvanced\Program22\obj\Debug\Program22.pdb

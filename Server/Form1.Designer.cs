@@ -28,24 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtServer = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.cbUser = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtLog = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.btnSend = new System.Windows.Forms.Button();
             this.btnShock = new System.Windows.Forms.Button();
             this.txtPort = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // textBox1
+            // txtServer
             // 
-            this.textBox1.Location = new System.Drawing.Point(125, 42);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(184, 21);
-            this.textBox1.TabIndex = 0;
+            this.txtServer.Location = new System.Drawing.Point(125, 42);
+            this.txtServer.Name = "txtServer";
+            this.txtServer.Size = new System.Drawing.Size(184, 21);
+            this.txtServer.TabIndex = 0;
             // 
             // label1
             // 
@@ -82,13 +82,13 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "连入的客户";
             // 
-            // textBox2
+            // txtLog
             // 
-            this.textBox2.Location = new System.Drawing.Point(56, 93);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(718, 256);
-            this.textBox2.TabIndex = 5;
+            this.txtLog.Location = new System.Drawing.Point(56, 93);
+            this.txtLog.Multiline = true;
+            this.txtLog.Name = "txtLog";
+            this.txtLog.Size = new System.Drawing.Size(718, 256);
+            this.txtLog.TabIndex = 5;
             // 
             // textBox3
             // 
@@ -133,14 +133,15 @@
             this.Controls.Add(this.btnShock);
             this.Controls.Add(this.btnSend);
             this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtLog);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.cbUser);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtServer);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -148,12 +149,12 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtServer;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ComboBox cbUser;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtLog;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Button btnSend;
         private System.Windows.Forms.Button btnShock;

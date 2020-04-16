@@ -88,6 +88,7 @@
             this.txtLog.Location = new System.Drawing.Point(56, 93);
             this.txtLog.Multiline = true;
             this.txtLog.Name = "txtLog";
+            this.txtLog.ReadOnly = true;
             this.txtLog.Size = new System.Drawing.Size(718, 256);
             this.txtLog.TabIndex = 5;
             // 

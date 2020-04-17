@@ -68,7 +68,23 @@ namespace Server
         /// <param name="o"></param>
         private void Receive(object o)
         {
-
+            //转换传入的参数类型
+            Socket socketSend = o as Socket;
+            //用循环持续接收二进制消息
+            while (true)
+            {
+                //每次读取2M
+                byte[] buffer = new byte[1024 * 1024 * 2];
+                //实际接收的有效字节数
+                int r = socketSend.Receive(buffer);
+                //当字节读取完成时 跳出循环
+                if (r == 0)
+                {
+                    break;
+                }
+                var str = Encoding.UTF8.GetString(buffer, 0, r);
+                ShowMessage(socketSend.RemoteEndPoint + ":" + str);
+            }
         }
         private void ShowMessage(string msgStr)
         {

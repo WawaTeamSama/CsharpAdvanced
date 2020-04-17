@@ -77,7 +77,7 @@ namespace Client
                 else if(buffer[0]==2)
                 {
                     this.Left += x;
-                     //sleep方法需要导入命名空间System.Threading
+                     
                                     Thread.Sleep(y);
                                     this.Top += x;
                                     Thread.Sleep(y);

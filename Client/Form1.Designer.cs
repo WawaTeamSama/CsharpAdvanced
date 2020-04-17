@@ -87,6 +87,7 @@
             this.btnSend.TabIndex = 5;
             this.btnSend.Text = "发送消息";
             this.btnSend.UseVisualStyleBackColor = true;
+            this.btnSend.Click += new System.EventHandler(this.btnSend_Click);
             // 
             // Form1
             // 

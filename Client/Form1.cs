@@ -50,5 +50,17 @@ namespace Client
         {
 
         }
+
+        private void btnSend_Click(object sender, EventArgs e)
+        {
+            if (socketSend == null || socketSend.Connected)
+            {
+                MessageBox.Show("网络连接错误，请重新输入！");
+                return;
+            }
+            var str = textBox3.Text;
+            byte[] buffer = Encoding.UTF8.GetBytes(str);
+            socketSend.Send(buffer);
+        }
     }
 }

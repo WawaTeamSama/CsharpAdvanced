@@ -116,5 +116,36 @@ namespace Server
                 MessageBox.Show("网络连接错误，请重新连接");
             }
         }
+
+        private void btnSend_Click(object sender, EventArgs e)
+        {
+            //if (socketSend == null || !socketSend.Connected)
+            //{
+            //    MessageBox.Show("网络连接错误，请重新输入！");
+            //    return;
+            //}
+            try
+            {
+                var str = textBox3.Text;
+                byte[] buffer = Encoding.UTF8.GetBytes(str);
+                List<byte> list = new List<byte>();
+                list.Add(0);
+                list.AddRange(buffer);
+                byte[] newBuffer = list.ToArray();
+                string IP = cbUser.SelectedItem.ToString();
+                if (string.IsNullOrEmpty(IP))
+                {
+                    MessageBox.Show("请先选择客户端！");
+                    return;
+                }
+                distanceSocket[IP].Send(newBuffer);
+               
+                
+            }
+            catch
+            {
+                MessageBox.Show("网络连接错误");
+            }
+        }
     }
 }

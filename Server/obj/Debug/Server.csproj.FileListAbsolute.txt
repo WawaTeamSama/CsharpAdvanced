@@ -1,7 +1,6 @@
 D:\CsharpAdvanced\Server\bin\Debug\Server.exe.config
 D:\CsharpAdvanced\Server\bin\Debug\Server.exe
 D:\CsharpAdvanced\Server\bin\Debug\Server.pdb
-D:\CsharpAdvanced\Server\obj\Debug\Server.csprojAssemblyReference.cache
 D:\CsharpAdvanced\Server\obj\Debug\Server.Form1.resources
 D:\CsharpAdvanced\Server\obj\Debug\Server.Properties.Resources.resources
 D:\CsharpAdvanced\Server\obj\Debug\Server.csproj.GenerateResource.cache

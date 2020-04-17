@@ -48,7 +48,38 @@ namespace Client
         }
         private void Receive()
         {
+          
+            //用循环持续接收二进制消息
+            while (true)
+            {
+                //每次读取2M
+                byte[] buffer = new byte[1024 * 1024 * 2];
+                //实际接收的有效字节数
+                int r = socketSend.Receive(buffer);
+                //当字节读取完成时 跳出循环
+                if (r == 0)
+                {
+                    break;
+                }
+                //发送文字
+                if (buffer[0] == 0)
+                {
+                    var str = Encoding.UTF8.GetString(buffer, 1, r-1); 
+                    ShowMessage(socketSend.RemoteEndPoint + ":" + str);
+                }
+                //发送文件
+                else if (buffer[0] == 1)
+                {
 
+                }
+                //发送震动
+                else
+                {
+
+                }
+                
+               
+            }
         }
 
         private void btnSend_Click(object sender, EventArgs e)
@@ -70,6 +101,11 @@ namespace Client
             {
                 MessageBox.Show("网络连接错误");
             }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Control.CheckForIllegalCrossThreadCalls = false;
         }
     }
 }

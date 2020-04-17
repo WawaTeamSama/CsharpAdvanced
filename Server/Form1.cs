@@ -147,5 +147,12 @@ namespace Server
                 MessageBox.Show("网络连接错误");
             }
         }
+
+        private void btnShock_Click(object sender, EventArgs e)
+        {
+            byte[] buffer = new byte[1];
+            buffer[0] = 2;
+            distanceSocket[cbUser.SelectedItem.ToString()].Send(buffer);
+        }
     }
 }

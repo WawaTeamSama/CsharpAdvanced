@@ -7,3 +7,4 @@ D:\CsharpAdvanced\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
 D:\CsharpAdvanced\Client\obj\Debug\Client.exe
 D:\CsharpAdvanced\Client\obj\Debug\Client.pdb
 D:\CsharpAdvanced\Client\obj\Debug\Client.Form1.resources
+D:\CsharpAdvanced\Client\obj\Debug\Client.csprojAssemblyReference.cache

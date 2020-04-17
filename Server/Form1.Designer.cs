@@ -118,6 +118,7 @@
             this.btnShock.TabIndex = 8;
             this.btnShock.Text = "震动";
             this.btnShock.UseVisualStyleBackColor = true;
+            this.btnShock.Click += new System.EventHandler(this.btnShock_Click);
             // 
             // txtPort
             // 

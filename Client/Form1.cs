@@ -48,7 +48,8 @@ namespace Client
         }
         private void Receive()
         {
-          
+            int x = 5;
+             int y = 10;
             //用循环持续接收二进制消息
             while (true)
             {
@@ -73,9 +74,17 @@ namespace Client
 
                 }
                 //发送震动
-                else
+                else if(buffer[0]==2)
                 {
-
+                    this.Left += x;
+                     //sleep方法需要导入命名空间System.Threading
+                                    Thread.Sleep(y);
+                                    this.Top += x;
+                                    Thread.Sleep(y);
+                                   this.Left -= x;
+                                     Thread.Sleep(y);
+                                     this.Top -= x;
+                                     Thread.Sleep(y);
                 }
                 
                

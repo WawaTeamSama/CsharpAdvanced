@@ -38,6 +38,9 @@
             this.btnSend = new System.Windows.Forms.Button();
             this.btnShock = new System.Windows.Forms.Button();
             this.txtPort = new System.Windows.Forms.TextBox();
+            this.txtPath = new System.Windows.Forms.TextBox();
+            this.btnPhoto = new System.Windows.Forms.Button();
+            this.btnSelect = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtServer
@@ -102,7 +105,7 @@
             // 
             // btnSend
             // 
-            this.btnSend.Location = new System.Drawing.Point(580, 415);
+            this.btnSend.Location = new System.Drawing.Point(606, 415);
             this.btnSend.Name = "btnSend";
             this.btnSend.Size = new System.Drawing.Size(75, 23);
             this.btnSend.TabIndex = 7;
@@ -128,11 +131,41 @@
             this.txtPort.TabIndex = 9;
             this.txtPort.Text = "50000";
             // 
+            // txtPath
+            // 
+            this.txtPath.Location = new System.Drawing.Point(56, 415);
+            this.txtPath.Name = "txtPath";
+            this.txtPath.Size = new System.Drawing.Size(434, 21);
+            this.txtPath.TabIndex = 10;
+            // 
+            // btnPhoto
+            // 
+            this.btnPhoto.Location = new System.Drawing.Point(525, 415);
+            this.btnPhoto.Name = "btnPhoto";
+            this.btnPhoto.Size = new System.Drawing.Size(75, 23);
+            this.btnPhoto.TabIndex = 11;
+            this.btnPhoto.Text = "发图";
+            this.btnPhoto.UseVisualStyleBackColor = true;
+            this.btnPhoto.Click += new System.EventHandler(this.btnPhoto_Click);
+            // 
+            // btnSelect
+            // 
+            this.btnSelect.Location = new System.Drawing.Point(494, 417);
+            this.btnSelect.Name = "btnSelect";
+            this.btnSelect.Size = new System.Drawing.Size(25, 21);
+            this.btnSelect.TabIndex = 12;
+            this.btnSelect.Text = "...";
+            this.btnSelect.UseVisualStyleBackColor = true;
+            this.btnSelect.Click += new System.EventHandler(this.btnSelect_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnSelect);
+            this.Controls.Add(this.btnPhoto);
+            this.Controls.Add(this.txtPath);
             this.Controls.Add(this.txtPort);
             this.Controls.Add(this.btnShock);
             this.Controls.Add(this.btnSend);
@@ -163,6 +196,9 @@
         private System.Windows.Forms.Button btnSend;
         private System.Windows.Forms.Button btnShock;
         private System.Windows.Forms.TextBox txtPort;
+        private System.Windows.Forms.TextBox txtPath;
+        private System.Windows.Forms.Button btnPhoto;
+        private System.Windows.Forms.Button btnSelect;
     }
 }
 

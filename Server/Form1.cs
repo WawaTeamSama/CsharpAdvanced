@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using System.Net;
 using System.Net.Sockets;
 using System.Threading;
+using System.IO;
 
 namespace Server
 {
@@ -153,6 +154,34 @@ namespace Server
             byte[] buffer = new byte[1];
             buffer[0] = 2;
             distanceSocket[cbUser.SelectedItem.ToString()].Send(buffer);
+        }
+
+        private void btnSelect_Click(object sender, EventArgs e)
+        {
+            var dialog = new OpenFileDialog();
+            dialog.Filter="图片文件|*.jpg";
+            dialog.ShowDialog();
+            txtPath.Text = dialog.FileName;
+        }
+
+        private void btnPhoto_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txtPath.Text))
+            {
+                MessageBox.Show("请选择文件！");
+                return;
+            }
+            var path = txtPath.Text.Trim();
+            //读取文件内容 进行发送
+            using (FileStream fsRead = new FileStream(path, FileMode.OpenOrCreate, FileAccess.Read))
+            {
+                byte[] buffer = new byte[1024 * 1024 * 5];
+                int r = fsRead.Read(buffer, 0,buffer.Length);
+                List<byte> list = new List<byte>();
+                list.Add(1);
+                list.AddRange(buffer);
+                byte[] newBuffer = list.ToArray();
+                distanceSocket[cbUser.SelectedItem.ToString()].Send(newBuffer, 0, r + 1, SocketFlags.None);            }
         }
     }
 }

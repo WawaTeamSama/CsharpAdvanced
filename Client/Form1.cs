@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Threading;
+using System.IO;
 
 namespace Client
 {
@@ -71,7 +72,22 @@ namespace Client
                 //发送文件
                 else if (buffer[0] == 1)
                 {
-
+                    var dialog = new SaveFileDialog();
+                    dialog.InitialDirectory = @"c:\text";
+                    dialog.Title = "请选择保存的文件夹";
+                    dialog.Filter = "所有文件|*.*";
+                    dialog.ShowDialog();
+                    var path = dialog.FileName;
+                    if (string.IsNullOrEmpty(path))
+                    {
+                        MessageBox.Show("请选择文件夹!");
+                        return;
+                    }
+                    using(FileStream fsWrite = new FileStream(path,FileMode.OpenOrCreate,FileAccess.Write))
+                    {
+                        fsWrite.Write(buffer, 1, r - 1);
+                    }
+                    ShowMessage(socketSend.RemoteEndPoint + ":文件发送成功！");
                 }
                 //发送震动
                 else if(buffer[0]==2)

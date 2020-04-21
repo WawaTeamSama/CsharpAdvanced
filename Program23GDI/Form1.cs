@@ -68,7 +68,8 @@ namespace Program23GDI
             Graphics g = this.CreateGraphics();
             //创建画笔对象
             Pen pen = new Pen(Color.Orange, 5.0f);
-            g.DrawPie(pen, 60, 60, 200, 200, 60, 120);
+            SolidBrush bush = new SolidBrush(Color.Orange);
+            g.FillPie(bush, 60, 60, 200, 200, 60, 120);
         }
     }
 }

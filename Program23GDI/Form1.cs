@@ -70,6 +70,12 @@ namespace Program23GDI
             Pen pen = new Pen(Color.Orange, 5.0f);
             SolidBrush bush = new SolidBrush(Color.Orange);
             g.FillPie(bush, 60, 60, 200, 200, 60, 120);
+
+           
+            SolidBrush bush2 = new SolidBrush(Color.Blue);
+            g.FillPie(bush2, 60, 60, 200, 200, 180, 180);
+
+            g.DrawString("年度业绩", new Font("微软雅黑", 14, FontStyle.Regular), Brushes.Black, new PointF(60, 280));
         }
     }
 }

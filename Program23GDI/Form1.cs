@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using System.Drawing.Drawing2D;
 
 namespace Program23GDI
 {
@@ -24,13 +24,22 @@ namespace Program23GDI
             //创建GDI对象
             Graphics g = this.CreateGraphics();
             //创建画笔对象
-            Pen pen = new Pen(Brushes.Orange);
+            Pen pen = new Pen(Color.Orange,5.0f);
+            //pen.DashStyle = DashStyle.Dot;
+            //线条风格
+            //float[] dashValues = { 2, 4, 6, 8 };
+            //pen.DashPattern = dashValues;
+            
 
             //建立坐标
             Point p1 = new Point(30, 50);
             Point p2 = new Point(30, 300);
 
             g.DrawLine(pen, p1, p2);
+            Rectangle r = new Rectangle();
+            r.Width = 200;
+            r.Height = 300;
+            g.DrawEllipse(pen, r);
         }
     }
 }

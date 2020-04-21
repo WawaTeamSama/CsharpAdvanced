@@ -36,10 +36,39 @@ namespace Program23GDI
             Point p2 = new Point(30, 300);
 
             g.DrawLine(pen, p1, p2);
-            Rectangle r = new Rectangle();
-            r.Width = 200;
-            r.Height = 300;
-            g.DrawEllipse(pen, r);
+           
+        }
+
+        private void btnRect_Click(object sender, EventArgs e)
+        {
+            //创建GDI对象
+            Graphics g = this.CreateGraphics();
+            //创建画笔对象
+            Pen pen = new Pen(Color.Orange, 5.0f);
+            //定义矩形大小
+            Size size = new Size(200, 400);
+            Point startP = new Point(60, 50);
+
+            Rectangle rect = new Rectangle(startP, size);
+            g.DrawRectangle(pen, rect);
+            
+        }
+
+        private void btnCrile_Click(object sender, EventArgs e)
+        {
+            Graphics g = this.CreateGraphics();
+            //创建画笔对象
+            Pen pen = new Pen(Color.Orange, 5.0f);
+            g.DrawEllipse(pen, 60, 60, 200,200);
+            
+        }
+
+        private void btnCuv_Click(object sender, EventArgs e)
+        {
+            Graphics g = this.CreateGraphics();
+            //创建画笔对象
+            Pen pen = new Pen(Color.Orange, 5.0f);
+            g.DrawPie(pen, 60, 60, 200, 200, 60, 120);
         }
     }
 }

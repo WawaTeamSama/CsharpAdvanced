@@ -1,0 +1,10 @@
+D:\CsharpAdvanced\Program23GDI\bin\Debug\Program23GDI.exe.config
+D:\CsharpAdvanced\Program23GDI\bin\Debug\Program23GDI.exe
+D:\CsharpAdvanced\Program23GDI\bin\Debug\Program23GDI.pdb
+D:\CsharpAdvanced\Program23GDI\obj\Debug\Program23GDI.csprojAssemblyReference.cache
+D:\CsharpAdvanced\Program23GDI\obj\Debug\Program23GDI.Form1.resources
+D:\CsharpAdvanced\Program23GDI\obj\Debug\Program23GDI.Properties.Resources.resources
+D:\CsharpAdvanced\Program23GDI\obj\Debug\Program23GDI.csproj.GenerateResource.cache
+D:\CsharpAdvanced\Program23GDI\obj\Debug\Program23GDI.csproj.CoreCompileInputs.cache
+D:\CsharpAdvanced\Program23GDI\obj\Debug\Program23GDI.exe
+D:\CsharpAdvanced\Program23GDI\obj\Debug\Program23GDI.pdb

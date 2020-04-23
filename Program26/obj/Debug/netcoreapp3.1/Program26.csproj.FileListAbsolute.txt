@@ -1,0 +1,13 @@
+D:\CsharpAdvanced\Program26\bin\Debug\netcoreapp3.1\Program26.exe
+D:\CsharpAdvanced\Program26\bin\Debug\netcoreapp3.1\Program26.deps.json
+D:\CsharpAdvanced\Program26\bin\Debug\netcoreapp3.1\Program26.runtimeconfig.json
+D:\CsharpAdvanced\Program26\bin\Debug\netcoreapp3.1\Program26.runtimeconfig.dev.json
+D:\CsharpAdvanced\Program26\bin\Debug\netcoreapp3.1\Program26.dll
+D:\CsharpAdvanced\Program26\bin\Debug\netcoreapp3.1\Program26.pdb
+D:\CsharpAdvanced\Program26\obj\Debug\netcoreapp3.1\Program26.csprojAssemblyReference.cache
+D:\CsharpAdvanced\Program26\obj\Debug\netcoreapp3.1\Program26.csproj.CoreCompileInputs.cache
+D:\CsharpAdvanced\Program26\obj\Debug\netcoreapp3.1\Program26.AssemblyInfoInputs.cache
+D:\CsharpAdvanced\Program26\obj\Debug\netcoreapp3.1\Program26.AssemblyInfo.cs
+D:\CsharpAdvanced\Program26\obj\Debug\netcoreapp3.1\Program26.dll
+D:\CsharpAdvanced\Program26\obj\Debug\netcoreapp3.1\Program26.pdb
+D:\CsharpAdvanced\Program26\obj\Debug\netcoreapp3.1\Program26.genruntimeconfig.cache

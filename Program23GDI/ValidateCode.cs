@@ -62,23 +62,34 @@ public class ValidateCode
         //创建验证码的图片
         public static byte[] CreateVCodePicture(string vCode)
         {
-            Bitmap image = new Bitmap((int)Math.Ceiling(vCode.Length * 20.0), 20);
+            Bitmap image = new Bitmap(95, 40);
             Graphics g = Graphics.FromImage(image);
             Random r = new Random();
             try
             {
                 g.Clear(Color.White);
+                
+                string[] fonts = { "Arial", "微软雅黑", "黑体", "仿宋" };
                 for (var i = 0; i < vCode.Length; i++) {
-                    Font font = new Font("Arial", 12, FontStyle.Bold | FontStyle.Italic);
+                    Font font = new Font(fonts[r.Next(0,4)], 20, FontStyle.Bold | FontStyle.Italic);
                     Color[] color = { Color.Crimson, Color.Blue, Color.Red };
                     SolidBrush brush = new SolidBrush(color[r.Next(0, 3)]);
-                    Point p = new Point(i * 10, 0);
+                    Point p = new Point(i * 20, 0);
                     g.DrawString(vCode[i].ToString(),font,brush,p);
                 }
                 MemoryStream stream = new MemoryStream();
                 image.Save(stream, ImageFormat.Jpeg);
 
                 return stream.ToArray();
+                for (var i = 0; i < vCode.Length; i++)
+                {
+                    for( i = 0; i < 40; i++)
+                    {
+                        Point p1 = new Point(r.Next(0, image.Width), r.Next(0, image.Height));
+                        Point p2 = new Point(r.Next(0, image.Width), r.Next(0, image.Height));
+                        g.DrawLine(new Pen(Brushes.Orange), p1, p2);
+                    }
+                }
             }
             
             finally

@@ -15,6 +15,13 @@ namespace Program26
             int[] nums = new int[11] { 1, 3, 5, 7, 93, 33, 4, 4, 6, 8, 10 };
             Console.WriteLine(GetAve(nums));
 
+            //3.请通过冒泡排序法对整数数组1,3,5,7,90,2,4,6,8,10实现升序排序
+            int[] MPnums = new int[10] { 1, 3, 5, 7, 90, 2, 4, 6, 8, 10 };
+            MPSort(MPnums);
+            foreach(int i in MPnums)
+            {
+                Console.Write(i + " ");
+            }
         }
         public static string GetLongestStr(string[] array)
         {
@@ -35,11 +42,26 @@ namespace Program26
             {
                 sum += i;
             }
-            double ave = (double)(sum / array.Length);
-            double result = Math.Round(ave, 4);
+            double ave = (double)sum / (double)array.Length;
+            double result = Math.Round(ave, 2);
             return result;
         }
-       
-        //3.请通过冒泡排序法对整数数组1,3,5,7,90,2,4,6,8,10实现升序排序
+       public static void MPSort(int[] array)
+        {
+            for (int i = 0; i < array.Length - 1; i++)
+            {
+                for (int j = 0; j < array.Length - 1 - i; j++)
+                {
+                    if (array[j] > array[j + 1])
+                    {
+                        int temp = array[j];
+                        array[j] = array[j + 1];
+                        array[j + 1] = temp;
+
+                    }
+                }
+            }
+        }
+        
     }
 }

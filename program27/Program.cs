@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using System.Diagnostics;
 using System.Text.RegularExpressions;
 
 namespace program27
@@ -8,12 +9,26 @@ namespace program27
     {
         static void Main(string[] args)
         {
-            //Test1();
-            //Test2();
-            //Test3();
-            //Test4();
+            Test3();
+
+            Test1();
+            Test2();
+           
+            Test4();
             int[] array = new int[] { 5, 16, 623, 3, 97, 12, 1, 3, 548, 0, 5, 7, 3 };
             Console.WriteLine(Test5(array));
+            //Test6();
+        }
+        public static void Test6()
+        {
+            Console.WriteLine("请输入要打开的文件路径");
+            string str1 = Console.ReadLine();
+            string path1 = @str1;
+            Console.WriteLine("请输入要打开的文件名称和文件类型");
+            string str2 = Console.ReadLine();
+            string path2 = @"\"+str2;
+            string path = path1 + path2;
+            Process.Start(path);
         }
         public static int Test5(int[] array)
         {

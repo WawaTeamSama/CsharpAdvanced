@@ -1,0 +1,4 @@
+D:\CsharpAdvanced\Program29\obj\Debug\netcoreapp3.1\Program29.csprojAssemblyReference.cache
+D:\CsharpAdvanced\Program29\obj\Debug\netcoreapp3.1\Program29.csproj.CoreCompileInputs.cache
+D:\CsharpAdvanced\Program29\obj\Debug\netcoreapp3.1\Program29.AssemblyInfoInputs.cache
+D:\CsharpAdvanced\Program29\obj\Debug\netcoreapp3.1\Program29.AssemblyInfo.cs
